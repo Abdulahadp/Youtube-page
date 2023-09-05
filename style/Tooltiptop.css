@@ -1,0 +1,122 @@
+ /* here targeting both search border and tooltip if we take cursor to the search it will work on tooltip then go to hover   */
+
+ .searchborder .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding: top 4px; 
+    padding-bottom:4px;
+    padding-right: 6px;
+    padding-left:6px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:12px;
+    bottom: -26px;
+    left:0;
+    opacity: 0;
+    pointer-events: none;
+}
+.searchborder:hover .tooltip{
+    opacity: 1;
+}
+
+
+.voiceborder .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding: top 4px; 
+    padding-bottom:4px;
+    padding-right: 6px;
+    padding-left:6px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:12px;
+    bottom: -26px;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+.voiceborder:hover .tooltip{
+    opacity:1 ;
+}
+ 
+.upload .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding: top 4px; 
+    padding-bottom:4px;
+    padding-right: 6px;
+    padding-left:6px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:12px;
+    bottom: -26px;
+    left: -3px;
+    opacity: 0;
+    pointer-events: none;
+}
+.upload:hover .tooltip{
+    opacity: 1;
+}
+
+.apps .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding: top 4px; 
+    padding-bottom:4px;
+    padding-right: 6px;
+    padding-left:6px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:12px;
+    bottom: -26px;
+    right: 2;
+    opacity: 0;
+    pointer-events:none;
+}
+.apps:hover .tooltip{
+    opacity:1 ;
+}
+
+.notification .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding: top 4px; 
+    padding-bottom:4px;
+    padding-right: 3px;
+    padding-left:3px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:11px;
+    bottom: -26px;
+    left:-10px ;
+    opacity: 0;
+    pointer-events: none;
+}
+.notification:hover .tooltip{
+    opacity: 1;
+}
+
+.profile .tooltip{
+    position:absolute ;
+    background-color: rgb(134, 131, 131);
+    color:whitesmoke;
+    padding-top: 3px; 
+    padding-bottom:4px;
+    padding-right: 4px;
+    padding-left:4px;
+    margin-left:-5px ;
+    border-radius:2px;
+    font-size:12px;
+    bottom: -26px;
+    right: 3px;
+    opacity: 0;
+    pointer-events:none;
+}
+.profile:hover .tooltip{
+    opacity:1 ;
+}

@@ -1,0 +1,147 @@
+    /* top section */
+
+     
+    .header{
+        z-index:100;
+        
+        border-bottom-width:1px ;
+        border-bottom-style:solid;
+        border-bottom-color:rgb(222, 222, 222); 
+        
+        background-color:rgb(255,255,255);
+        padding-bottom:15px;
+        margin-top:0px ;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        
+    }
+        /* leftsection */
+    
+    .leftsection{
+        
+        width:200px;
+        height:50px ;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+           
+     
+    }
+    .hamburger{
+        padding-left:25px ;
+        width:26px;
+        
+       
+    }
+    .youtubelogo{
+        width: 90px;
+        padding-left:24px;
+        padding-bottom:1px ;
+    }
+    
+        /* middlesection */
+    
+    .middlesection{
+         
+        margin-left:-100px ;
+        width:500px;
+        height:50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+           
+    }
+     .searchbox{
+        font-family: 'Courier New', Courier, monospace;
+        border-radius:7px ;
+        padding-left:20px;
+        margin-top:5px;
+        width:400px;
+        height:30px;
+        border-style: solid; 
+        border-color: rgb(192, 192,192);
+    }
+    .search{
+        width:25px;
+        height:25px;
+        padding-top:3px ;    
+    }
+    .searchborder{
+        
+        height:36px ;
+        width:50px;
+        margin-left:-6px;
+        margin-top:5px;
+        border-radius:2px;
+        border-style:solid;
+        border-color: rgb(192,192,192);
+        position: relative;
+    }
+    
+    .voicesearch{
+        width:29px;
+        background-color:rgb(219, 211, 211);
+        border-radius:30px ;
+    }
+    .voiceborder{
+        margin-top:9px ;
+        margin-left:5px;
+        border-style:none;
+        border-radius:15px;
+        position: relative;
+    }
+        
+        /* RightSection */
+    
+     .rightsection{
+        
+        width:200px;
+        height:50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+            
+     }
+     .rightimage{
+        
+        width:28px;
+        margin-top:8px;
+        padding-right:7px ;   
+    }
+    .notification{
+        cursor: pointer;
+        position:relative;
+    }
+    .notification-count{
+        position:absolute;
+        top: 8px;
+        right:10px;
+        background-color:rgb(200, 0, 0);
+        color:white ;
+        font-family: Roboto, Arial;
+        font-size:10px;
+        border-radius:10px;
+        padding:1px 3px 1px 3px ;
+    }
+    .upload{
+        position: relative;
+    }
+    .apps{
+        position: relative;
+    }
+    .profile{
+        position: relative;
+    }
+    
+    
+    
+      
+    
